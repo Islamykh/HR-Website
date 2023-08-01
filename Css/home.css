@@ -1,0 +1,169 @@
+body{
+    background-color:  rgb(2, 2, 79);
+}
+
+.HomeContainer{
+   
+    text-align: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "ls body body body "
+    "ls footer footer footer";
+    grid-column: auto auto;
+    grid-row: auto;
+    width: 100%;
+}
+
+.nav{
+    background-color: rgb(2, 2, 79);
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: 80% 20%;  
+}
+.col1{
+    background-image: ;
+}
+.col>img{
+    width: 200px;
+}
+.col>ul{
+    width: 100%;
+    height: 50px;
+    margin-top: 80px;
+
+}
+.navlist>li{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+    margin-right: 110px;
+    color: white;
+    background-color: white;
+   
+}
+.navlist>li>a:link, a:visited{
+    color: rgb(2, 2, 79);
+    background-color: white;
+    padding: 20px, 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.navlist>li>a:hover,a:active{
+    color: black;
+    background-color: rgb(137, 190, 244);
+}
+
+.ls{
+    margin-top: 80px;
+    background-color: rgb(2, 2, 79);
+    color: rgb(0, 0, 0);
+    grid-area: ls;
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: auto;
+    grid-row-gap: 150px;
+
+}
+.signup>button{
+width: 100%;
+background-color: rgb(73, 88, 221);
+border-radius: 10px;
+color: white;
+}
+.signup>button>a{
+    color: white;
+}
+.body{
+    grid-area: body;
+    background-color: white;
+
+}
+.footer{
+    background-color: rgb(2, 2, 79);
+    color: white;
+    grid-area: footer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .logo{
+width: 70px;
+
+}
+.navcontainer{
+    display: grid;
+    grid-row: auto;
+    grid-column: 70px auto;
+    grid-gap: 10px;
+}
+.navbar{
+    margin: 0 auto;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(23, 4, 85);
+
+}
+.navlist>li{
+    border-bottom: 5px black;
+    border-top: 3px solid rgb(170, 144, 91);
+    border-left: 5px solid rgb(170, 144, 91);
+    border-right: 5px solid rgb(170, 144, 91);
+    border-radius: 20px;
+    color: white;
+    display: inline;
+    margin-top: 50px;
+
+
+}
+.colnav{
+    padding: auto 100%;
+
+}
+footer{
+    background-color: rgb(23, 4, 85);
+    text-align: center;
+    margin-top: 0;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-radius: 5px;
+    color: white;
+
+}
+.Signin{
+    width: 40px;
+}
+  */
+
+

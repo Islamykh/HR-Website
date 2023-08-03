@@ -1,0 +1,17 @@
+.cardimg{
+    width: 70%;
+    margin-left: 10%;
+}
+.card-title{
+    text-align: center;
+    margin-top: 15px;
+}
+.btn-primary{
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+.card-text{
+    font-size: 18px;
+}

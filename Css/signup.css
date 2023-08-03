@@ -1,0 +1,29 @@
+.Body{
+    background-image: url(../Media/Signup.jpeg);
+    
+}
+.modal-body{
+    text-align: center;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+}
+.modal-body>input{
+    margin-top: 8px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 35px;
+}
+.modal-body>label{
+    font-size: larger;
+    margin-top: 20px;
+    font-weight: bolder;
+    background-color: rgb(169, 208, 229);
+}
+.dropdown>button{
+    width: 400px;
+    height: 35px;
+    background-color: rgb(14, 3, 47);
+    color: wheat;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

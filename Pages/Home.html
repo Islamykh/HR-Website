@@ -3,146 +3,104 @@
 <head>
     <title>Home Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Css/index.css">
     <link rel="stylesheet" href="../Css/home.css">
 
 </head>
 <body>
-  <div class="HomeContainer">
-<!-- NavBar  -->
-    <div class="nav"> 
-      <div class="col col1">   
-        <ul class="navlist">
-        <li><a href="Home.html">Home Page </a></li>
-        <li><a href="About.html">About the projects</a></li>
-        <li><a href="Contact.html">Contact Us </a></li> 
-        <li><a href="jobs.html">Jobs </a></li> 
-      </ul>
-    </div>
-    <div class="col col2"> 
-      <img class="logo" src="../Media/BDC.jpg"> 
-    </div>
-    </div>
+  <div class="HomepageContainer">
+    <!-- NavBar (Pages List And logo ) -->
+    <div class="NavBar">
+    
+       <div class="col col1">   <!-- Page List -->
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="Home.html">Home Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">ContactUs </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="jobs.html">Our Jobs </a>
+          </li>
+        </ul>
+      </div>  
 
-    <!-- Lift Side/ sign insignUp -->
+      <div class="col col2"> <!-- Logo Picture -->
+        <img class="logo" src="../Media/BDC.png">
 
-
-
-<div class="ls"> 
-
-      <!--LOgin Button -->
-     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> LogIn</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel"> LogIn </h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <label for="number"> Individual Number</label><br>
-        <input type="number" placeholder="Please Enter your ID"><br>
-        <label for="password"> password</label> <br>
-        <input type="password" placeholder="Please Enter your Passcode"><br>
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Login</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- signup Button -->
-
-<div class="signup">
-  <button> <a href="../Pages/signup.html">SignUp </a></button>
-</div>
+      </div>  
     </div>
 
 
+    <div class="Body">
+      <!-- Body of home page contain to side: lift side to creat the account and right side is the main object of the page -->
+      <div class="LiftSideHomePage"> 
 
+        <!-- Button trigger modal -->
+         <button type="button" class="SignIn" data-bs-toggle="modal" data-bs-target="#exampleModal"> Login</button>
 
+         <!-- Modal -->
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+              </div>
 
-    <div class="body"> body</div>
-
-    <!-- footer -->
-    <div class="footer">  
-       <p>Copy Right &copy 2023</p>
-      <p> Designed by <a href="https://www.linkedin.com/in/eslam-khashashneh-b9895120b/">Eng. Islam Khashashneh </a></p></div>
-  </div>
-
-
-
-
-<!-- 
-
-  <div class="homebody">
-    <form class="Signin"> -->
-      <!-- Signin button  -->
-  
-     <!-- <button> 
-         Button trigger modal 
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> LogIn  </button> --> 
-  
-    <!-- Modal
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">LogIn</h1>
+              <!-- Add form to log in to the user account -->
+                <div class="modal-body"> 
+                  <form>
+                    <label for="number">Individual number </label><br>
+                    <input type="number" placeholder="Please Enter Your ID"><br>
+                   
+                    <label for="Password">password</label><br>
+                    <input type="password" placeholder="Enter The PassCode">
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Login</button>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <form> <button class="SignIn"> <a href="signup.html"> SignUp</a></button></form>
           
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-           <label for="text">Individual Number</label><br>
-           <input type="text" name="Individual Number" id="Number"><br>
-           <label for="text">ID Number</label><br>
-           <input type="text" name="ID Number" id="Number"><br>
-           <label for="password">password</label><br>
-           <input type="password"><br>
-  
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Login</button>
-          </div>
+
         </div>
+
+
+
+      <div class="BodyHomePage">
+        <p class="BodyTitle">To inquire about your job role Please Enter your ID  </p><br>
+        <form class="formhome">
+          <label for="number">Individual number </label><br>
+          <input type="number" placeholder="Please Enter Your ID"> <br>
+          <label for="text">Case number</label><br>
+          <input type="text" placeholder="Please Enter your Case Number"><br>
+          <button> <a> Search</a></button>
+        </form>
+
       </div>
     </div>
-  
-      </button>
-  
-      SignUp page 
-  
-  
-      <button> 
-          <a href="signup.html">SignUp </a>
-      </button>
-  
-     </div>
-
-     <div class="homemain">
-      <h2> To inquire about a job role</h2>
-
-      <form>
-        <label for="Number"> ID Number</label><br>
-        <input placeholder="Please Enter your ID NO."> <br>
-        <button> Search</button>
-      </form>
 
 
-     </div> -->
-
-  
-<!-- 
-
-    <footer>
+    <div class="Footer">
       <p>Copy Right &copy 2023</p>
-        <p> Designed by <a href="https://www.linkedin.com/in/eslam-khashashneh-b9895120b/">Eng. Islam Khashashneh </a></p>
-    </footer> -->
+      <p> Designed by <a href="https://www.linkedin.com/in/eslam-khashashneh-b9895120b/">Eng. Islam Khashashneh </a></p></div>
+    </div>
+
+  </div>
+
+
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 

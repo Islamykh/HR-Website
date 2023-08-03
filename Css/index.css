@@ -1,0 +1,60 @@
+
+.HomeContainer{
+    display: grid;
+    grid-template-areas: 
+    "NavBar NavBar NavBar"
+    "Body Body Body "
+    "Footer Footer Footer ";
+}
+
+.NavBar{
+    grid-area: NavBar;
+    display: grid;
+    grid-template-columns: 90% 30%;
+    margin-top: 0%;
+    background-color: rgb(14, 3, 47);
+}
+.Body{
+    grid-area: Body;
+
+}
+.Footer{
+    grid-area: Footer;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 0%;
+    background-color: rgb(14, 3, 47);
+    height: 100px;
+}
+.NavBar>div>img{
+    width: 20%;
+    height: 100%;
+    margin-top: 0%;
+    margin-right: 50%;
+}
+.nav{
+    margin-top: 50px;
+    font-size: larger;
+}
+.nav-item>a{
+    color: wheat;
+}
+..nav-item>a:link, a:visited{
+    color: black;
+    background-color: rgb(213, 196, 169);
+    padding: 20px, 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.nav-item>a:hover{
+    color: brown;
+    background-color: rgb(102, 81, 50);
+}
+.nav-item>a:active{
+    color: black;
+    background-color: white;
+
+}

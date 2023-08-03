@@ -1,169 +1,89 @@
-body{
-    background-color:  rgb(2, 2, 79);
-}
-
-.HomeContainer{
-   
-    text-align: center;
+.Body{
     display: grid;
-    grid-gap: 5px;
     grid-template-areas: 
-    "nav nav nav nav"
-    "ls body body body "
-    "ls footer footer footer";
-    grid-column: auto auto;
-    grid-row: auto;
-    width: 100%;
-}
-
-.nav{
-    background-color: rgb(2, 2, 79);
-    grid-area: nav;
-    display: grid;
-    grid-template-columns: 80% 20%;  
-}
-.col1{
-    background-image: ;
-}
-.col>img{
-    width: 200px;
-}
-.col>ul{
-    width: 100%;
-    height: 50px;
-    margin-top: 80px;
-
-}
-.navlist>li{
-    font-size: 20px;
-    font-weight: bold;
-    display: inline;
-    margin-right: 110px;
-    color: white;
-    background-color: white;
-   
-}
-.navlist>li>a:link, a:visited{
-    color: rgb(2, 2, 79);
-    background-color: white;
-    padding: 20px, 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-.navlist>li>a:hover,a:active{
-    color: black;
-    background-color: rgb(137, 190, 244);
-}
-
-.ls{
-    margin-top: 80px;
-    background-color: rgb(2, 2, 79);
-    color: rgb(0, 0, 0);
-    grid-area: ls;
-    display: grid;
-    grid-template-columns: 80%;
+    "LiftSideHomePage BodyHomePage BodyHomePage ";
+    grid-template-columns: 15% 85%;
     grid-template-rows: auto;
-    grid-row-gap: 150px;
 
 }
-.signup>button{
-width: 100%;
-background-color: rgb(73, 88, 221);
-border-radius: 10px;
-color: white;
+
+.LiftSideHomePage{
+    grid-area: LiftSideHomePage;
+    background-color: rgb(244, 230, 213);
+    
 }
-.signup>button>a{
-    color: white;
+.BodyHomePage{
+    background-image: url(../Media/1.jpg);
 }
-.body{
-    grid-area: body;
+.BodyHomePage>p{
+   margin-top: 200px;
+    grid-area: BodyHomePage;
+    text-align: center;
+    font-weight: 500px;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+.formhome{
+    margin: 0 auto;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+.formhome>input{
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.formhome>label{
+    background-color:rgb(244, 230, 213) ;
+    color: black;
+}
+.formhome>button{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 225px;
+    font-weight: bold;
+    color: rgb(201, 166, 166);
+    background-color: rgb(14, 3, 47);
+    border-radius: 10px; 
+    margin-top: 25px;
+}
+.formhome>button>a:hover{
+    color: brown;
     background-color: white;
 
 }
-.footer{
-    background-color: rgb(2, 2, 79);
-    color: white;
-    grid-area: footer;
+.SignIn {
+    margin-top: 100px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(14, 3, 47);
+    color: wheat;
+    margin-left: 20px;
+    font-size: larger;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .logo{
-width: 70px;
+.SignIn>a{
+    color: wheat;
 
 }
-.navcontainer{
-    display: grid;
-    grid-row: auto;
-    grid-column: 70px auto;
-    grid-gap: 10px;
-}
-.navbar{
-    margin: 0 auto;
-    height: 50%;
-    width: 100%;
-    background-color: rgb(23, 4, 85);
-
-}
-.navlist>li{
-    border-bottom: 5px black;
-    border-top: 3px solid rgb(170, 144, 91);
-    border-left: 5px solid rgb(170, 144, 91);
-    border-right: 5px solid rgb(170, 144, 91);
-    border-radius: 20px;
-    color: white;
-    display: inline;
-    margin-top: 50px;
-
-
-}
-.colnav{
-    padding: auto 100%;
-
-}
-footer{
-    background-color: rgb(23, 4, 85);
+.modal-body{
     text-align: center;
-    margin-top: 0;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
-    border-left: 5px solid black;
-    border-right: 5px solid black;
-    border-radius: 5px;
-    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+.modal-title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.modal-dialog{
+    background-color: rgb(14, 3, 47);
 
 }
-.Signin{
-    width: 40px;
-}
-  */
-
-

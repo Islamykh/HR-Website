@@ -1,0 +1,32 @@
+.Body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+
+}
+th{
+    border: 2px black solid;
+    width: 200px;
+    text-align: center;
+    background-color: blanchedalmond;
+    height: 70px;
+}
+td{
+    border: 2px black solid;
+    text-align: center;
+    height: 60px;
+}
+table{
+    margin-top: 70px;
+    margin-left: 20px;
+
+}
+.table2{
+    margin-bottom: 200px;
+    margin-left: 200px;
+}
+.card{
+    margin-top: 70px;
+    margin-left: 300px;
+    
+}

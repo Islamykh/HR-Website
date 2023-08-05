@@ -1,5 +1,7 @@
 .Body{
     background-image: url(../Media/Signup.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     
 }
 .modal-body{
@@ -17,7 +19,6 @@
     font-size: larger;
     margin-top: 20px;
     font-weight: bolder;
-    background-color: rgb(169, 208, 229);
 }
 .dropdown>button{
     width: 400px;

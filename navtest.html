@@ -149,6 +149,8 @@ rel="stylesheet"
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="#!" class="btn btn-primary" onclick="clicked(1)">Add to Cart</a>
+      <a href="#!" class="btn btn-danger" style="display: none;" onclick="clicked2(1)">Delete</a>
+
     </div>
   </div>
   <div class="card" style="width: 400px; margin: 70px auto;">
@@ -157,6 +159,8 @@ rel="stylesheet"
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="#!" class="btn btn-primary" onclick="clicked(2)">Add to Cart</a>
+      <a href="#!" class="btn btn-danger"  style="display: none;" onclick="clicked2(2)">Delete</a>
+
     </div>
   </div>
   <div class="card" style="width: 400px; margin: 70px auto;">
@@ -165,6 +169,7 @@ rel="stylesheet"
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="#!" class="btn btn-primary" onclick="clicked(3)"> Add to Cart</a>
+      <a href="#!" class="btn btn-danger"  style="display: none;" onclick="clicked2(3)">Delete</a>
     </div>
   </div>
 
@@ -187,12 +192,31 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
   }
   checklist.push(id);
   let buttonchange= document.getElementsByClassName("btn btn-primary")[id-1];
+  var buttonchange2=document.getElementsByClassName("btn btn-danger")[id-1]
   buttonchange.innerHTML="Added to Cart";
+  buttonchange2.style.display="block"
   buttonchange.style.backgroundColor="green";
   var cartBadges= document.getElementById("cartBadges");
   cartBadges.innerHTML= checklist.length;
   console.log(checklist)
  
+   }
+   function clicked2(id){
+
+      
+    for(var i=0; i<checklist.length;i++){
+      if(checklist [i]==id){
+         checklist.pop(id);
+      }
+  }
+  let buttonchange= document.getElementsByClassName("btn btn-primary")[id-1];
+  var buttonchange2=document.getElementsByClassName("btn btn-danger")[id-1]
+  buttonchange.innerHTML="Add to Cart";
+  buttonchange2.style.display="none"
+  buttonchange.style.backgroundColor="#3b71ca";
+  var cartBadges= document.getElementById("cartBadges");
+  cartBadges.innerHTML= checklist.length;
+
    }
 </script>
 

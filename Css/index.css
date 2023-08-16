@@ -10,7 +10,7 @@
 .NavBar{
     grid-area: NavBar;
     display: grid;
-    grid-template-columns: 90% 30%;
+    grid-template-columns: 90% 10%;
     margin-top: 0%;
     background-color: rgb(14, 3, 47);
 }
@@ -29,10 +29,9 @@
     height: 100px;
 }
 .NavBar>div>img{
-    width: 20%;
-    height: 100%;
+    width: 50%;
     margin-top: 0%;
-    margin-right: 50%;
+    /* margin-right: 50%; */
 }
 .nav{
     margin-top: 50px;
@@ -41,7 +40,7 @@
 .nav-item>a{
     color: wheat;
 }
-..nav-item>a:link, a:visited{
+.nav-item>a:link, a:visited{
     color: black;
     background-color: rgb(213, 196, 169);
     padding: 20px, 30px;

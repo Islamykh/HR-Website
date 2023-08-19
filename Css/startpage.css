@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.HomepageContainer{
+    display: grid;
+    grid-template-areas: 
+    "navbar navbar navbar"
+    "body body body"
+    "body body body"
+    "footer footer footer";
+    height: 100hv;
+}
+.homebody{
+    grid-area: body;
+
+}
+header img{
+    width: 150px;
+    margin-right: 0%;
+    margin-top: 0;
+}
+
+ .NavBar{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: navbar;
+    padding: 0% auto;
+}
+.navlist li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+    border: 3px solid rgb(22, 0, 68);
+    background-color: rgb(22, 0, 68);
+    border-radius: 10px;
+    padding: 10px;
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: larger;
+}
+.SignIn{
+    border: none;
+  
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    background-color: rgb(22, 0, 68);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+   
+}
+.navlist li a:hover, a:active{
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(22, 0, 68);
+
+}
+
+.footer{
+    margin-top: 40px;
+    padding-top: 0%;
+    grid-area: footer;
+    font-size: 15px;
+    text-align: center;    
+    margin-left: 0%;
+    background-color: rgb(22, 0, 68);
+    border-radius: 10px;
+    color: whitesmoke; 
+
+}
+.footer a{
+    text-decoration: none; 
+    
+}
+
+
+

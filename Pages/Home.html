@@ -9,92 +9,63 @@
 </head>
 <body>
   <div class="HomepageContainer">
-    <!-- NavBar (Pages List And logo ) -->
+
+
     <div class="NavBar">
-    
-       <div class="col col1">   <!-- Page List -->
+      <header> <a href="#"> <img src="../Media/BDC.jpg"></a></header>
+      <ul class="navlist">
+        <li> <a href="Home.html"> Home</a></li>
+        <li> <a href="../Pages/jobs.html"> Our Jobs</a></li>
+        <li> <a href="../Pages/signup.html"> SignUp</a></li>
         <ul class="nav nav-tabs">
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="Home.html">Home Page</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="About.html">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Contact.html">ContactUs </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="jobs.html">Our Jobs </a>
-          </li>
-        </ul>
-      </div>  
+            <button type="button" class="SignIn" data-bs-toggle="modal" data-bs-target="#exampleModal"> Login</button>
 
-      <div class="col col2"> <!-- Logo Picture -->
-        <img src="../Media/BDC.jpg">
-      </div>  
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+                  </div>
+    
+                  <!-- Add form to log in to the user account -->
+                    <div class="modal-body"> 
+                      <form>
+                        <label for="number">Individual number </label><br>
+                        <input type="number" placeholder="Please Enter Your ID"><br>
+                       
+                        <label for="Password">password</label><br>
+                        <input type="password" placeholder="Enter The PassCode">
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Login</button>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+          </li>
+        <li> </li>
+
+
+
+      </ul>
     </div>
 
+    
 
-    <div class="Body">
-      <!-- Body of home page contain to side: lift side to creat the account and right side is the main object of the page -->
-      <div class="LiftSideHomePage"> 
+    <div class="body">
 
-        <!-- Button trigger modal -->
-         <button type="button" class="SignIn" data-bs-toggle="modal" data-bs-target="#exampleModal"> Login</button>
-
-         <!-- Modal -->
-         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
-              </div>
-
-              <!-- Add form to log in to the user account -->
-                <div class="modal-body"> 
-                  <form>
-                    <label for="number">Individual number </label><br>
-                    <input type="number" placeholder="Please Enter Your ID"><br>
-                   
-                    <label for="Password">password</label><br>
-                    <input type="password" placeholder="Enter The PassCode">
-                  </form>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Login</button>
-                </div>
-              </div>
-            </div>
-          </div> 
-          <form> <button class="SignIn"> <a href="signup.html"> SignUp</a></button></form>
-          
-
-        </div>
-
-
-
-      <div class="BodyHomePage">
-        <p class="BodyTitle">To inquire about your job role Please Enter your ID  </p><br>
-        <form class="formhome">
-          <label for="number">Individual number </label><br>
-          <input type="number" placeholder="Please Enter Your ID"> <br>
-          <label for="text">Case number</label><br>
-          <input type="text" placeholder="Please Enter your Case Number"><br>
-          <button> <a> Search</a></button>
-        </form>
-
-      </div>
     </div>
 
-
-    <div class="Footer">
+    <div class="footer">
       <p>Copy Right &copy 2023</p>
       <p> Designed by <a href="https://www.linkedin.com/in/eslam-khashashneh-b9895120b/">Eng. Islam Khashashneh </a></p></div>
     </div>
 
-  </div>
+
 
 
 

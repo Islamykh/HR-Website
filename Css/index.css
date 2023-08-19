@@ -1,72 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header img{
+    width: 150px;
+    margin-left: 0%;
+    margin-top: 0;
 
-/* .HomeContainer{
-    display: grid;
-    grid-template-areas: 
-    "NavBar NavBar NavBar"
-    "Body Body Body "
-    "Footer Footer Footer ";
 }
 
 .NavBar{
-    grid-area: NavBar;
-    display: grid;
-    grid-template-columns: 90% 10%;
-    margin-top: 0%;
-    background-color: rgb(14, 3, 47);
+    position: absolute;
+    width: 95%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
 }
-.SignIn {
-    width: 80px;
-    height: 50px;
-    background-color: wheat;
-    color: rgb(14, 3, 47);
-    margin-left: 20px;
-    border-radius: 7px;
-
-}
-.SignIn>a{
-    color: wheat;
-
-}
-.Body{
-    grid-area: Body;
-
-}
-.Footer{
-    grid-area: Footer;
-    background-color: black;
+.navlist li a{
     color: white;
-    text-align: center;
-    border-radius: 10px;
-    margin-bottom: 0%;
-    background-color: rgb(14, 3, 47);
-    height: 100px;
+    text-decoration: none;
+   
+    margin-right: 60px;
+    padding: 10px;
+
+
 }
-.NavBar>div>img{
-    width: 50%;
-    margin-top: 0%;
-    /* margin-right: 50%; */
-}
-.nav{
-    margin-top: 50px;
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
     font-size: larger;
 }
-.nav-item>a{
-    color: wheat;
-}
-.nav-item>a:link, a:visited{
-    color: black;
-    background-color: rgb(213, 196, 169);
-    padding: 20px, 30px;
-    text-align: center;
+.SignIn{
+    border: none;
+  
     text-decoration: none;
-    display: inline-block;
-}
-.nav-item>a:hover{
-    color: brown;
-    background-color: rgb(102, 81, 50);
-}
-.nav-item>a:active{
-    color: black;
+    text-transform: uppercase;
     background-color: white;
+    color: rgb(13, 2, 64);
+    padding: 10px;
+    border-radius: 10px;
 
-} */
+
+   
+}
+.navlist li a:hover, a:active{
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(13, 2, 64);
+
+}

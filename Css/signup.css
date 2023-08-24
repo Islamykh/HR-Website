@@ -2,6 +2,7 @@ Body{
     background-image: url(../Media/Signup.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
+    width: 100hv;
     
 }
 .modal-body{
@@ -20,14 +21,17 @@ Body{
     margin-top: 20px;
     font-weight: bolder;
 }
-.dropdown>button{
+
+.footer{
+    margin-top: 200px;
+}
+.SignUpbutton, .dropdown{
     width: 400px;
     height: 35px;
     background-color: rgb(14, 3, 47);
     color: wheat;
     margin-bottom: 10px;
     border-radius: 5px;
-}
-.footer{
-    margin-top: 200px;
+    text-align: center;
+
 }

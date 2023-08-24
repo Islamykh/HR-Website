@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(white,rgb(0, 0, 61));
+}
+.row{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    color:rgb(14, 3, 47) ;
+}
+.col{
+    margin-left: 50%;
+    margin-right: 0%;
+}
+.title{
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(14, 3, 47);
+}
+.title h4{
+    font-size: 50px;
+}
+.btn{
+    width: 250px;
+    margin-left: 30%;
+    background-color:rgb(14, 3, 47) ;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 10px;
+
+   
+
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    width: 250px;
+    height: 40px;
+}
+.btn:hover{
+border: 2px solid rgb(14, 3, 47) ;
+background-color: wheat;
+color: rgb(14, 3, 47);
+}
+

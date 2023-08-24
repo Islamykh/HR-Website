@@ -10,7 +10,6 @@
 <body>
   <div class="HomepageContainer">
     <div class="NavBar">
-      <header> <a href="#"> <img src="../Media/99.jpeg"></a></header>
       <ul class="navlist">
         <li> <a href="Home.html" > Home</a></li>
         <li> <a href="../Pages/jobs.html"> Our Jobs</a></li>
@@ -31,7 +30,7 @@
                     <div class="modal-body"> 
                       <form>
                         <label for="number">Individual number </label><br>
-                        <input type="number" placeholder="Please Enter Your ID"><br>
+                        <input type="number" name="PN"placeholder="Please Enter Your ID"><br>
                        
                         <label for="Password">password</label><br>
                         <input type="password" placeholder="Enter The PassCode">
@@ -86,7 +85,7 @@
             <option class="dropdown-item">D12</option>
             </select><br>
           
-                <button class="SignUpbutton" > SignUp</button>
+                <button class="SignUpbutton" onclick="messaGe()" > SignUp</button>
               </div> 
             
     </div>
@@ -120,9 +119,8 @@
 
 
 
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../JS/signup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 </body>

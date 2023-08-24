@@ -12,15 +12,13 @@
 
 
     <div class="NavBar">
-      <header> <a href="#"> <img src="../Media/99.jpeg"></a></header>
       <ul class="navlist">
         <li> <a href="Home.html" > Home</a></li>
         <li> <a href="../Pages/jobs.html"> Our Jobs</a></li>
         <li> <a href="../Pages/signup.html"> SignUp</a></li>
         <ul class="nav nav-tabs">
            <li class="nav-item">
-            <button type="button" class="SignIn" data-bs-toggle="modal" data-bs-target="#exampleModal"> Login</button>
-
+            <button type="button" class="SignIn" data-bs-toggle="modal" data-bs-target="#exampleModal" > Login</button>
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
               <div class="modal-dialog">
                 <div class="modal-content">
@@ -46,6 +44,7 @@
                   </div>
                 </div>
               </div> 
+      
           </li>
       </ul>
     </div>
@@ -62,6 +61,15 @@
             <input type="number" placeholder="Please Enter Your ID"> <br>
             <label for="text">Case number</label><br>
             <input type="text" placeholder="Please Enter your Case Number"><br>
+            <label for="text">Vacancy </label><br>
+            <select class="droplist">
+              <option > SELECT THE JOB</option>
+              <option > Security Guard</option>
+              <option value="">Cleaner</option>
+              <option value="">Data Entry</option>
+              <option value="">SAT</option>
+              <option value="">Warehous Assistant</option>
+            </select>
             
           </form>
           <button class="search" onclick="clicked()">  Search</button>

@@ -15,8 +15,6 @@
     grid-area: body;
 
 }
-
-
  .NavBar{    
     display: flex;
     justify-content: space-between;
@@ -42,10 +40,10 @@
     align-items: center;
     list-style: none;
     font-size: larger;
+    border: 0;
 }
 .SignIn{
     border: none;
-  
     text-decoration: none;
     text-transform: uppercase;
     background-color: white;
@@ -80,5 +78,38 @@
     
 }
 
+.searchicon{
+    width: 330px;
+    float: left;
+    margin-left: 1000px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid rgb(22, 0, 68);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(22, 0, 68);
+    background-color: rgb(22, 0, 68);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
 
-
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}

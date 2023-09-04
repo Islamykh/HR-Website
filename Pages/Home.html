@@ -58,12 +58,14 @@
 
       <div class="jobrole">
         <div class="jobrole">
-          <p>To inquire about your job role Please Enter your ID  </p><br>
+          <h3>To inquire about your job role Please Enter your ID  </h3><br>
           <form class="formhome" action="#" method="post" name="homeform">
-            <label for="text" name="Id">Individual number </label><br>
-            <input type="text "name="Case" placeholder="Please Enter Your ID"> <br>
-            <label for="text">Case number</label><br>
-            <input type="text" placeholder="Please Enter your Case Number"><br>
+            <label for="text"  name="Id">Individual number </label><br>
+            <input type="text" id="IDNum" placeholder="388-00012345"> <br>
+            <p style="color: red; display:none;" id="ErrorMass">* Invalid Number Please Enter correct ID</p><br>
+            <label for="text" >Case number</label><br>
+            <input type="text" id="CaseNum" placeholder="388-12c12345"><br>
+            <p style="color: red; display:none;" id="ErrorMass2">* Invalid Number Please Enter correct Case Number</p><br>
             <label for="text">Vacancy </label><br>
             <select class="droplist">
               <option > SELECT THE JOB</option>
@@ -75,7 +77,7 @@
             </select>
             
           </form>
-          <button class="search" onclick="clicked()">  Search</button>
+          <button class="search"  >Search</button>
         </div>
       </div>
 

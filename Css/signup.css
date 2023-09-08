@@ -15,23 +15,42 @@ Body{
     margin-bottom: 20px;
     width: 400px;
     height: 35px;
+    background: transparent;
+    color: rgb(22, 0, 68);
+    border: 1px solid rgb(22, 0, 68);
+
+
+
 }
 .modal-body>label{
     font-size: larger;
     margin-top: 20px;
     font-weight: bolder;
+    color: rgb(22, 0, 68);
+
 }
 
 .footer{
-    margin-top: 200px;
+    margin-top: 120px;
 }
 .SignUpbutton, .dropdown{
     width: 400px;
     height: 35px;
-    background-color: rgb(14, 3, 47);
-    color: wheat;
+    color: rgb(22, 0, 68);
     margin-bottom: 10px;
     border-radius: 5px;
     text-align: center;
+    background: transparent;
+    border: 1px solid rgb(22, 0, 68);
+}
+.SignUpbutton a{
+    background: transparent;
+    color: rgb(22, 0, 68);
 
 }
+
+input[type='radio'] {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+  }

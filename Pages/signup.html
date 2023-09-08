@@ -45,7 +45,14 @@
               </div> 
           </li>
       </ul>
+      <div class="searchicon">
+        <input type="search" name="" class="srch" placeholder="Search">
+        <a href="#">
+          <button class="btn">Search</button>
+        </a>   
+     </div>
     </div>
+   
         
         
       </div>  
@@ -55,17 +62,23 @@
 
         <div class="modal-body">
             <label for="text">Full name</label><br>
-            <input type="text"><br>
+            <input type="text" required id="name"><br>
+            <p style="color: red; display: none;" id="errorname"> * Please Enter your name</p>
             <label for="text">Individual Number</label><br>
-            <input type="text" name="Individual Number" id="Number"><br>
-            <label for="text">ID Number</label><br>
-            <input type="text" name="ID Number" id="Number"><br>
-            <label for="password" required> password</label><br>
-            <input type="password"><br>
-            <label for="birthday" required>Birthday </label><br>
-            <input type="date"><br>
-            <label for="Phone" required> Phone number</label><br>
-            <input type="text" name="PN" size="10" maxlength="10"><br>
+            <input type="text" name="Individual Number" id="IDNumber" required placeholder="388-00012345"><br>
+            <p style="color: red; display: none;" id="errorID"> * Please Enter correct ID</p>
+            <label for="text">Cas Number</label><br>
+            <input type="text" name="ID Number" id="caseNum" required placeholder="388-12c12345"><br>
+            <label for="password"  id="pass"> password</label><br>
+            <input type="password" required><br>
+            <label for="birthday" id="BDay">Birthday </label><br>
+            <input type="date" required><br>
+            <label for="text">Gender</label><br>
+            <input type="radio" class="Gender">Male
+            <input type="radio" class="Gender">Female<br>
+
+            <label for="Phone"  > Phone number</label><br>
+            <input type="text" name="PN" size="10" maxlength="10" required id="PHNum"><br>
     
             <!-- home location as a dropdown list -->
             <select class="dropdown">
@@ -85,7 +98,7 @@
             <option class="dropdown-item">D12</option>
             </select><br>
           
-                <button class="SignUpbutton" onclick="messaGe()" > SignUp</button>
+                <button class="SignUpbutton" > <a href="Home.html"> SignUp </a></button>
               </div> 
             
     </div>

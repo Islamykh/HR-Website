@@ -50,9 +50,10 @@ body{
 }
 .jobrole h3{
     text-align: center;
-    font-size: 30px;
     font-weight: bolder;
     text-transform: uppercase;
+    color: rgb(22, 0, 68);
+
 }
 .formhome{
     margin-top: 10px;
@@ -64,6 +65,9 @@ body{
     text-align: center;
     margin-bottom: 10px;
     margin-top: 5px;
+    background: transparent;
+
+
 }
 .formhome>label{
     text-align: center;
@@ -72,18 +76,22 @@ body{
     text-transform: uppercase;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: rgb(22, 0, 68);
+
+
 }
 .search{
     width: 450px;
     height: 40px;
     border: 3px solid rgb(22, 0, 68);
     border-radius: 5px;
-    background-color: rgb(22, 0, 68);
-    color: white;
+    color: rgb(22, 0, 68);
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
     margin-left: 40%;
+    background: transparent;
+
 
 
 }
@@ -140,7 +148,7 @@ body{
 .aboutzaatari h1{
     font-weight: bold;
 
-    color: rgb(11, 11, 5);
+    color: rgb(22, 0, 68);
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
@@ -154,8 +162,8 @@ body{
     height: 40px;
     border: 3px solid rgb(22, 0, 68);
     border-radius: 5px;
-    background-color: rgb(22, 0, 68);
-    color: white;
+    background: transparent;
+    color: rgb(22, 0, 68);
     text-align: center;
     font-weight: bold;
 }
@@ -182,3 +190,11 @@ th{
     color: white;
 }
 
+.hometitle{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    color: rgb(22, 0, 68);
+
+}

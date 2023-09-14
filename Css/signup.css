@@ -2,7 +2,8 @@ Body{
     background-image: url(../Media/Signup.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 100hv;
+    height: 100hv;
+    width: 100%;
     
 }
 .modal-body{

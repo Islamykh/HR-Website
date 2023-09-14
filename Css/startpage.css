@@ -22,8 +22,8 @@
     grid-area: navbar;
     padding: 0% auto;
     width: 100%;
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-left: 5%;
+    margin-top: 2%;
 }
 .navlist li a{
     color: white;
@@ -81,7 +81,7 @@ background-color: rgb(22, 0, 68);
 .searchicon{
     width: 330px;
     float: left;
-    margin-left: 1000px;
+    margin-left: 900px;
 }
 .srch{
     font-family: 'Times New Roman';

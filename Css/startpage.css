@@ -61,22 +61,7 @@
 
 }
 
-.footer{
-    margin-top: 40px;
-    padding-top: 0%;
-    grid-area: footer;
-    font-size: 15px;
-    text-align: center;    
-    margin-left: 0%;
-background-color: rgb(22, 0, 68);
-    border-radius: 10px;
-    color: whitesmoke; 
 
-}
-.footer a{
-    text-decoration: none; 
-    
-}
 
 .searchicon{
     width: 330px;
@@ -150,7 +135,46 @@ background-color: rgb(22, 0, 68);
     height: 1rem;
   }
   
-  
+  .footer{
+    margin-top: 40px;
+    padding-top: 0%;
+    grid-area: footer;
+    font-size: 15px;
+    text-align: center;    
+    margin-left: 0%;
+    background-color: rgb(22, 0, 68) ;
+    border-radius: 10px;
+    color: whitesmoke; 
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+}
+.footer a{
+    text-decoration: none; 
+}
+.listitems {
+    justify-content: center;
+    list-style: none;  
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    
+ 
+}
+.links a, .listitems li a{
+    text-decoration: none;
+    margin-left: 2%;
+    color: white;
+}
+.listitems li{
+    margin-top: 3%;
+}
+.links p{
+    font-size: 19px;
+    margin-top: 2%;
+}
+.links a{
+    margin-bottom: 7%;
+}
   
   
   

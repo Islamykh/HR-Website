@@ -55,3 +55,13 @@ input[type='radio'] {
     width: 20px;
     vertical-align: middle;
   }
+  .w-full{
+    width: 300px;
+    height: 40px;
+
+  }
+  .text-sm{
+    height: 40px;
+    background: transparent;
+
+  }

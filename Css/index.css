@@ -192,10 +192,20 @@ body{
     background-color: #252525;
     color: white;
     width: 300px;
-    margin-left: 30%;
+    margin-left: 33%;
   }
   
   .button3:hover {
     background-color: red;
     color: white;
+  }
+  .indexfooter {
+    margin-top: 5%;
+    justify-content: space-between;
+
+  }
+  .indexfooter a{
+    text-decoration: none;
+    margin-left: 2%;
+    color: black;
   }

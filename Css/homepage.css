@@ -44,8 +44,8 @@ body{
     height: 450px; */
     /* margin-left: 20%; */
     background:transparent;
-    border-radius: 5px;
-    /* border: 2px solid white ; */
+    border-radius: 20px;
+    border: 2px solid rgb(22, 0, 68) ;
     backdrop-filter:blur(10px);
     margin-bottom: 0px;
     box-shadow: 0 0 10px 0 (white,rgb(196, 196, 225),white);
@@ -66,6 +66,8 @@ body{
     text-transform: uppercase;
     color: rgb(22, 0, 68);
     margin-left: 0;
+    margin-top: 2%;
+    font-size: 20px;
 
 }
 .formhome{
@@ -83,7 +85,7 @@ body{
 
 }
 input::placeholder{
-    color: white;
+    color: rgb(22, 0, 68)ay;
 }
 .formhome>label{
     text-align: center;

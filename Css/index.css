@@ -209,3 +209,7 @@ body{
     margin-left: 2%;
     color: black;
   }
+  .input-field{
+    border:2px solid black ;
+    border-radius: 5px;
+  }

@@ -12,8 +12,8 @@ function ChickNum(){
           if(truevalue.includes(IDNum[i], 0)) {
             let timerInterval
             Swal.fire({
-              title: 'Auto close alert!',
-              html: 'I will close in <b></b> milliseconds.',
+              title: 'Search',
+              html: 'Wait for finished search <b></b> milliseconds.',
               timer: 2000,
               timerProgressBar: true,
               didOpen: () => {
@@ -29,7 +29,7 @@ function ChickNum(){
             }).then((result) => {
               /* Read more about handling dismissals below */
               if (result.dismiss === Swal.DismissReason.timer) {
-                console.log('I was closed by the timer')
+                console.log('Wait for finished search')
               }
               })
               continue;

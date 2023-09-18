@@ -7,9 +7,23 @@ function ChickNum(){
   
   if(l==12)
     {
+     var counter=0;
       for(var i=0;i<l;i++)
         {
           if(truevalue.includes(IDNum[i], 0)) {
+              continue;
+          }   
+          else 
+          {
+            counter+=1
+          }
+        }
+        if(counter>0){
+           document.getElementById("ErrorMass").style.display="block";
+
+        }
+        else{
+          
             let timerInterval
             Swal.fire({
               title: 'Search',
@@ -32,16 +46,7 @@ function ChickNum(){
                 console.log('Wait for finished search')
               }
               })
-              continue;
 
-          }
-          
-          else 
-          {
-            document.getElementById("ErrorMass").style.display="block";
-            break;
-          }
-        
         }
     }
     else{

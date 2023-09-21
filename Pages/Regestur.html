@@ -25,58 +25,84 @@
         </svg>
         <input placeholder="Search" type="search" class="input">
     </div>
-  
-   
-    </div>
-   
-        
-        
+    </div>    
       </div>  
     </div>
 
       <div class="Body">
 
-        <div class="modal-body">
-            <label for="text">Full name</label><br>
-            <input type="text" required id="name"><br>
-            <p style="color: red; display: none;" id="errorname"> * Please Enter your name</p>
-            <label for="text">Individual Number</label><br>
-            <input type="text" name="Individual Number" id="IDNumber" required placeholder="388-00012345"><br>
-            <p style="color: red; display: none;" id="errorID"> * Please Enter correct ID</p>
-            <label for="text">Cas Number</label><br>
-            <input type="text" name="ID Number" id="caseNum" required placeholder="388-12c12345"><br>
-            <label for="password"  id="pass"> password</label><br>
-            <input type="password" required><br>
-            <label for="birthday" id="BDay">Birthday </label><br>
-            <input type="date" required><br>
-            <label for="text">Gender</label><br>
-            <input type="radio" class="Gender">Male
-            <input type="radio" class="Gender">Female<br>
+        <form class="form">
+          <p>Register</p>
+          <div class="group">
+            <input required="true" class="main-input" type="text">
+            <span class="highlight-span"></span>
+            <label class="lebal-email">Full Name</label><br>
+          </div>
 
-            <label for="Phone"  > Phone number</label><br>
-            <input type="text" name="PN" size="10" maxlength="10" required id="PHNum"><br>
-    
-            <!-- home location as a dropdown list -->
-            <select class="dropdown">
-              
-              <option class="dropdown"> District Number</option>
-            <option class="dropdown-item">D1</option>
-            <option class="dropdown-item">D2</option>
-            <option class="dropdown-item">D3</option>
-            <option class="dropdown-item">D4</option>
-            <option class="dropdown-item">D5</option>
-            <option class="dropdown-item">D6</option>
-            <option class="dropdown-item">D7</option>
-            <option class="dropdown-item">D8</option>
-            <option class="dropdown-item">D9</option>
-            <option class="dropdown-item">D10</option>
-            <option class="dropdown-item">D11</option>
-            <option class="dropdown-item">D12</option>
-            </select><br>
-          
-                <button class="SignUpbutton" > <a href="Home.html"> SignUp </a></button>
-              </div> 
+          <div class="container-1">
+            <div class="group">
+              <input required="true" class="main-input" type="text"><br>
+              <span class="highlight-span"></span><br>
+              <label class="lebal-email">Individual Number</label><br>
+            </div>
+          </div>
+
+          <div class="container-1">
+            <div class="group">
+              <input required="true" class="main-input" type="text"><br>
+              <span class="highlight-span"></span><br>
+              <label class="lebal-email">Case Number</label><br>
+            </div>
+          </div>
+          <div class="container-1">
+            <div class="group">
+              <label for="text" style="color: white; margin-right: 2%;">Gender</label><br>
+             
+              <input type="radio" class="main-input" >
+              <label style="color: white; margin-right: 2%; margin-left: 2%">    Male</label>
             
+              <input type="radio"class="main-input">
+              <label style="color: white;  margin-left: 2%">    Female</label>
+            </div>
+          </div>
+          <div class="container-1">
+            <div class="group">
+              <input required="true" class="main-input" type="text" name="PN" size="10" maxlength="10">
+              <span class="highlight-span"></span>
+              <label class="lebal-email">Phone Number</label>
+            </div>
+          </div>
+
+          <div class="container-1">
+            <div class="group">
+              <input required="true" class="main-input" type="password" >
+              <span class="highlight-span"></span>
+              <label class="lebal-email" for="password">password</label>
+            </div>
+          </div>
+          <div class="container-1">
+            <div class="group">
+              <select class="main-input">
+              
+                <option class="dropdown"> District Number</option>
+              <option class="dropdown-item">D1</option>
+              <option class="dropdown-item">D2</option>
+              <option class="dropdown-item">D3</option>
+              <option class="dropdown-item">D4</option>
+              <option class="dropdown-item">D5</option>
+              <option class="dropdown-item">D6</option>
+              <option class="dropdown-item">D7</option>
+              <option class="dropdown-item">D8</option>
+              <option class="dropdown-item">D9</option>
+              <option class="dropdown-item">D10</option>
+              <option class="dropdown-item">D11</option>
+              <option class="dropdown-item">D12</option>
+              </select>
+            </div>
+          </div>
+          
+          <button class="submit">submit</button>
+        </form>
     </div>
 
 

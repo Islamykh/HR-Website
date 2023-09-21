@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(white,rgb(152, 152, 240));
+    background: linear-gradient(white,rgb(34, 49, 132));
 }
 .row{
     margin-top: 50px;
@@ -45,7 +45,7 @@ color: rgb(14, 3, 47);
 
 .card{
     background: linear-gradient(white);
-    margin-left: 20%;
+    margin-left: 10%;
 
 
 }

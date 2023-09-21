@@ -12,8 +12,8 @@
     color: white;
     text-decoration: none;
     margin-right: 60px;
-    border: 3px solid rgb(13, 12, 13);
-    background-color: black;
+    border: 3px solid rgb(22, 0, 68);
+    background-color: rgb(22, 0, 68);
     border-radius: 10px;
     padding: 10px;
     max-width: 100Px;
@@ -68,20 +68,20 @@ body{
     padding: 0 1rem;
     width: 100%;
     padding-left: 2.5rem;
-    border: 2px solid black;
+    border: 2px solid rgb(22, 0, 68);
     border-radius: 8px;
     outline: none;
     background:transparent;
-    color: black;
+    color: rgb(22, 0, 68);
     transition: .3s ease;
   }
   .input::placeholder {
-    color: black;
+    color: rgb(22, 0, 68);
   }
   .icon {
     position: absolute;
     left: 1rem;
-    fill: black;
+    fill: rgb(22, 0, 68);
     width: 1rem;
     height: 1rem;
   }
@@ -100,7 +100,7 @@ body{
   
   .form:hover {
     transform: scale(1.05);
-    border: 1px solid black;
+    border: 1px solid rgb(22, 0, 68);
   }
   
   #heading {
@@ -156,7 +156,7 @@ body{
     border: none;
     outline: none;
     transition: .4s ease-in-out;
-    background-color: #252525;
+    background-color: rgb(22, 0, 68);
   
   }
   .button1 a{
@@ -173,7 +173,7 @@ body{
     border: none;
     outline: none;
     transition: .4s ease-in-out;
-    background-color: #252525;
+    background-color: rgb(22, 0, 68);
     color: white;
   }
   .button2 a{
@@ -189,10 +189,10 @@ body{
     border: none;
     outline: none;
     transition: .4s ease-in-out;
-    background-color: #252525;
+    background-color: rgb(22, 0, 68);
     color: white;
     width: 300px;
-    margin-left: 33%;
+    margin-left: 30%;
   }
   
   .button3:hover {
@@ -207,9 +207,9 @@ body{
   .indexfooter a{
     text-decoration: none;
     margin-left: 2%;
-    color: black;
+    color: rgb(22, 0, 68);
   }
   .input-field{
-    border:2px solid black ;
+    border:2px solid rgb(22, 0, 68) ;
     border-radius: 5px;
   }
